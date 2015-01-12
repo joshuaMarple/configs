@@ -79,9 +79,6 @@
         (next-line)))
 
 
-(global-set-key (kbd "C-/") 'comment-or-uncomment-region-or-line) ; ctrl+a
-
-
 (electric-pair-mode 1)
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
@@ -112,9 +109,18 @@
               (> (buffer-size) 3000000)) ;; disable linum on buffer greater than 3MB, otherwise it's unbearably slow
     (linum-mode 1)))
 
+(defun my-bell-function ()
+  (unless (memq this-command
+        '(isearch-abort abort-recursive-edit exit-minibuffer
+              keyboard-quit mwheel-scroll down up next-line previous-line
+              backward-char forward-char))
+    ()))
+(setq ring-bell-function 'my-bell-function)
+
+
 (provide 'linum-off)
 
-(setq linum-format “%d “)
+;; (setq linum-format “%d “)
 
 (global-linum-mode 1)
 
@@ -122,3 +128,16 @@
 
 (tool-bar-mode -1)
 
+(require 'tramp)
+(setq tramp-default-method "scp")
+
+(modify-all-frames-parameters (list (cons 'cursor-type 'bar)))
+
+(require 'ergoemacs-mode)
+
+(setq ergoemacs-theme nil) ;; Uses Standard Ergoemacs keyboard theme
+(setq ergoemacs-keyboard-layout "us") ;; Assumes QWERTY keyboard layout
+(ergoemacs-mode 1)
+
+
+(global-set-key (kbd "C-;") 'comment-or-uncomment-region-or-line) ; ctrl+a

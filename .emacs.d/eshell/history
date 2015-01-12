@@ -1,50 +1,3 @@
-gcc exercises.c -std=c99
-./a.out 
-make clean
-rm a.out 
-make
-ls
-make clean
-ls
-make
-./exercises 
-clear
-clear
-ls
-ls
-ls
-cd Projects/
-ls
-cd cstuff/
-make
-ls
-./exercises 
-make
-make
-ls
-make clean
-make
-make
-ls
-./exercises 
-./exercises 3
-make
-make clean
-make
-./exercises 3
-make
-make clean
-make
-make clean
-make
-./exercises 2
-make
-make clean
-make
-./exercises 
-./exercises 2
-make
-make clean
 make
 ./exercises 
 ./exercises 2
@@ -126,3 +79,50 @@ make
 ./exercises 99
 ./exercises 9
 gdb ./exercises 
+ls
+cd ..
+cd projects/
+ls
+cd current/
+ls
+ssh jmarple@cycle2.eecs.ku.edu
+ls
+cd /jmarple@cycle2.eecs.ku.edu:~/Projects/
+ls
+cd cstuff/
+gdb
+ls
+gdb ./exercises 
+cc
+ls
+less max.c 
+cc max.c 
+gcc max.c
+gcc max.c
+cc max.c
+ls
+./a.out 
+ls
+./a.out 
+ls -al
+rm a.out
+ls
+gcc max.c
+./a.out 
+ls
+gcc -o test max.c
+ls
+./test
+./exercises 
+exercises
+gdb ./test
+exit
+ls
+./a.out 
+./test
+quit
+exit
+cd ~
+ls
+ls
+ls
