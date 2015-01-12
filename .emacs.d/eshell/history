@@ -1,0 +1,128 @@
+gcc exercises.c -std=c99
+./a.out 
+make clean
+rm a.out 
+make
+ls
+make clean
+ls
+make
+./exercises 
+clear
+clear
+ls
+ls
+ls
+cd Projects/
+ls
+cd cstuff/
+make
+ls
+./exercises 
+make
+make
+ls
+make clean
+make
+make
+ls
+./exercises 
+./exercises 3
+make
+make clean
+make
+./exercises 3
+make
+make clean
+make
+make clean
+make
+./exercises 2
+make
+make clean
+make
+./exercises 
+./exercises 2
+make
+make clean
+make
+./exercises 
+./exercises 2
+./exercises 5
+make
+make clean
+make
+./exercises 2
+make
+make clean
+make
+./exercises 2
+make clean
+make
+./exercises 2
+make clean
+make
+./exercises 2
+make clean
+make
+./exercises 2
+make clean
+./exercises 2
+make
+./exercises 2
+make
+make clean
+make
+make clean
+make
+./exercises 
+gdb ./exercises 
+ls
+make clean
+make
+./exercises 
+./exercises 2
+./exercises 5
+./exercises 25
+test
+echo test
+xscreensaver -lock
+make clean
+make
+./exercises 
+./exercises 3
+./exercises 5
+./exercises 8
+make clean
+make
+./exercises 3
+make
+make clean
+make
+./exercises 3
+make
+./exercises 3
+make clean
+make
+./exercises 3
+make
+make clean
+make
+./exercises 3
+./exercises 4
+make clean
+make
+./exercises 2
+./exercises 3
+./exercises 4
+make clean
+make
+./exercises 
+./exercises 4
+./exercises 2
+./exercises 3
+./exercises 6
+./exercises 7
+./exercises 99
+./exercises 9
+gdb ./exercises 
