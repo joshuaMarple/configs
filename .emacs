@@ -53,13 +53,18 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes (quote ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
- '(inhibit-startup-screen t))
+ '(delete-selection-mode t)
+ '(inhibit-startup-screen t)
+ '(org-CUA-compatible nil)
+ '(org-replace-disputed-keys nil)
+ '(recentf-mode t)
+ '(shift-select-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:family "Inconsolata" :foundry "unknown" :slant normal :weight normal :height 113 :width normal)))))
 
 
 ;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
@@ -81,11 +86,13 @@
 
 (electric-pair-mode 1)
 
-(define-key global-map (kbd "RET") 'newline-and-indent)
+
 
 (setq-default c-basic-offset 4)
 
 ;; (setq linum-disabled-modes-list ‘(eshell-mode wl-summary-mode compilation-mode)) (defun linum-on () (unless (or (minibufferp) (member major-mode linum-disabled-modes-list)) (linum-mode 1)))
+
+
 
 (require 'linum)
 
@@ -128,6 +135,8 @@
 
 (tool-bar-mode -1)
 
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
 (require 'tramp)
 (setq tramp-default-method "scp")
 
@@ -141,3 +150,13 @@
 
 
 (global-set-key (kbd "C-;") 'comment-or-uncomment-region-or-line) ; ctrl+a
+
+(global-visual-line-mode t)
+
+(require 'python)
+(defun python-indent-guess-indent-offset ()
+  "Guess and set `python-indent-offset' for the current buffer."
+  (interactive))
+
+  
+(rainbow-delimiters-mode 1)

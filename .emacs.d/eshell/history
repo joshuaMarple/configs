@@ -1,128 +1,128 @@
-make
-./exercises 
-./exercises 2
-./exercises 5
-make
-make clean
-make
-./exercises 2
-make
-make clean
-make
-./exercises 2
-make clean
-make
-./exercises 2
-make clean
-make
-./exercises 2
-make clean
-make
-./exercises 2
-make clean
-./exercises 2
-make
-./exercises 2
-make
-make clean
-make
-make clean
-make
-./exercises 
-gdb ./exercises 
-ls
-make clean
-make
-./exercises 
-./exercises 2
-./exercises 5
-./exercises 25
-test
-echo test
-xscreensaver -lock
-make clean
-make
-./exercises 
-./exercises 3
-./exercises 5
-./exercises 8
-make clean
-make
-./exercises 3
-make
-make clean
-make
-./exercises 3
-make
-./exercises 3
-make clean
-make
-./exercises 3
-make
-make clean
-make
-./exercises 3
-./exercises 4
-make clean
-make
-./exercises 2
-./exercises 3
-./exercises 4
-make clean
-make
-./exercises 
-./exercises 4
-./exercises 2
-./exercises 3
-./exercises 6
-./exercises 7
-./exercises 99
-./exercises 9
-gdb ./exercises 
-ls
+ssh root@ ec2-54-148-189-208.us-west-2.compute.amazonaws.com
+ssh root@ec2-54-148-189-208.us-west-2.compute.amazonaws.com -i ~/.ssh/SUSE_key
+find SUSE_key
+find ./ SUSE_key
+cd .
 cd ..
-cd projects/
+cd ..
 ls
-cd current/
+cd .ssh/
 ls
-ssh jmarple@cycle2.eecs.ku.edu
+ssh root@ec2-54-148-189-208.us-west-2.compute.amazonaws.com -i ~/.ssh/SUSE_key.pem
+pwd
+ssh root@ec2-54-148-189-208.us-west-2.compute.amazonaws.com -i ~/.ssh/SUSE_Key.pem
+ssh ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com -i ~/.ssh/SUSE_Key.pem
 ls
-cd /jmarple@cycle2.eecs.ku.edu:~/Projects/
+cat SUSE_Key.pem 
+ssh-add SUSE_key.pem
+ssh-add ./SUSE_key.pem
+ssh-add ./SUSE_Key.pem
+cd /scp:ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com
+cd /ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com
+cd /ssh:ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com
+cd /ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com:~
 ls
-cd cstuff/
-gdb
+cd automated_trading_system/
 ls
-gdb ./exercises 
-cc
+make
 ls
-less max.c 
-cc max.c 
-gcc max.c
-gcc max.c
-cc max.c
-ls
-./a.out 
-ls
-./a.out 
-ls -al
-rm a.out
-ls
-gcc max.c
-./a.out 
-ls
-gcc -o test max.c
-ls
-./test
-./exercises 
-exercises
-gdb ./test
+./testapp 
 exit
 ls
-./a.out 
+cd ~
+ls
+/ssh:cycle2.eecs.ku.edu
+/ssh: cycle2.eecs.ku.edu
+/ssh : cycle2.eecs.ku.edu
+cd cycle2.eecs.ku.edu
+cd /cycle2.eecs.ku.edu
+cd /cycle2.eecs.ku.edu:~
+ls
+cd Projects/cstuff/
+ls
 ./test
-quit
 exit
 cd ~
 ls
+cd /ssh:cycle2.eecs.ku.edu
+cd /ssh:cycle2.eecs.ku.edu
+cd /ssh:cycle2.eecs.ku.edu
+cd /ssh/:cycle2.eecs.ku.edu
+cd /ssh/:cycle2.eecs.ku.edu:~
+cd /ssh/:cycle2.eecs.ku.edu:~/
+cd /ssh:cycle2.eecs.ku.edu:~/
 ls
+cd Projects/
+ls
+cd cstuff/
+ls
+./test
+./exercises 3
+cd ~
+ls
+cd /sshx/:cycle2.eecs.ku.edu:~/
+cd /sshx:cycle2.eecs.ku.edu:~/
+ls
+python
+cd Projects/cstuff/
+ls
+make
+make clean
+make
+ls
+./exercises 
+ssh cycle2.eecs.ku.edu
+gdb
+cd ..
+ls
+cd trading_system/
+ls
+make
+exit
+cd /ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com:~/
+ls
+cd automated_trading_system/
+ls
+make
+make clean
+make
+ls
+./test
+./testapp 
+gdb
+exit
+cd /ssh:ec2-user@ec2-54-148-189-208.us-west-2.compute.amazonaws.com:~
+ls
+cd automated_trading_system/
+ls
+gdb
+gdb test
+./test
+gdb testapp
+gdb
+ls
+gdb
+git status
+git branch help
+git branch
+git branch -d help
+git branch dev-joshua
+git checkout dev-joshua
+git status
+git add mysql_connection_trading.cpp
+git status
+git commit -m "working on making this work for all stocks, not just apple. Running into string comparison issues"
+git push
+git pull
+git checkout master
+git pull
+git checkout dev-joshua
+git status
+git push
+git push -u origin dev-joshua
+python
+ls
+python
+cd ~
+python
 ls
