@@ -8,8 +8,8 @@
 (add-to-list 'package-archives
              '("org" . "http://orgmode.org/elpa/"))
 
-(when (fboundp 'windmove-default-keybindings)
-  (windmove-default-keybindings))
+;; (when (fboundp 'windmove-default-keybindings)
+  ;; (windmove-default-keybindings))
 
 ;(require 'sublimity)
 ;(require 'sublimity-scroll)
